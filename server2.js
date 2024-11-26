@@ -1,11 +1,11 @@
 const express = require('express')
 const cors = require('cors')
-const mysql = require('mysql')
+const mysql = require('mysql2')
 const bodyParser = require('body-parser');
 const crypto = require('crypto'); // Importar módulo crypto para gerar token
 const nodemailer = require('nodemailer'); // Importar nodemailer para envio de email
 
-// 
+
 
 const app = express()
 const port = 3000
